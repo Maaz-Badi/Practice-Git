@@ -8,7 +8,7 @@ int main() {
 
     auto start = chrono::high_resolution_clock::now();
 
-    for (int i = 1; i <= 1000; ++i) {
+    for (int i = 1; i <= 100000; ++i) {
         cout << i << '\n';  // Fast: no flush
     }
 
