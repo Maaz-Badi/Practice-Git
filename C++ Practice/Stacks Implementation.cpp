@@ -28,7 +28,7 @@ void display(int stack[], int top) {
     std::cout << "\n";
 }
 int main(){
-    const int MAX_SIZE = 3;
+    const int MAX_SIZE = 10;
     int stack[MAX_SIZE];
     int top = -1;
 
